@@ -49,7 +49,6 @@ public class Commandls {
 		}
 		
 		
-		
 		if (parseOption(options, args)) {
 			
 			if(input == null) {
@@ -150,8 +149,7 @@ public class Commandls {
 					System.out.println(resultA);
 				}
 			}*/
-		}
-			
+		}	
 		
 	}
 	
