@@ -82,7 +82,6 @@ public class Commandls {
 				
 				Collections.sort(nameOfFile);
 				
-				
 				for(String resultA: nameOfFile) {
 					System.out.println(resultA);
 				}
@@ -91,13 +90,11 @@ public class Commandls {
 			if(optionT) { 
 				
 				//ArrayList<String> sortedByTime = new ArrayList<String>();
-				
 				Arrays.sort(dirFile, LastModifiedFileComparator.LASTMODIFIED_COMPARATOR);
 				
 				for(File sortedByTime: dirFile) {
 					System.out.println(sortedByTime.getName());
 				}
-				
 			}
 			
 			if(optionF) {
